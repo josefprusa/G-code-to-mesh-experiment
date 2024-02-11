@@ -82,8 +82,8 @@ def save_to_xyz_with_normals(points, normals, output_path):
             file.write(f"{point[0]} {point[1]} {point[2]} {normal[0]} {normal[1]} {normal[2]}\n")
 
 # Example usage
-gcode_path = '/Users/josefprusa/Documents/Development/3D/Reverse g-code/pug.gcode'  # Replace with your G-code file path
-output_path = '/Users/josefprusa/Documents/Development/3D/Reverse g-code/pugv5.xyz'  # Output file path
+gcode_path = 'pug.gcode'  # Replace with your G-code file path
+output_path = 'pug.xyz'  # Output file path
 extrusion_width = 0.45
 layer_height = 0.2
 
